@@ -1,0 +1,518 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.about-us-item {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.card {
+  height: 300px;
+  text-align: center;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 0 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-1 {
+  text-align: center;
+}
+
+.card hr {
+  width: 40%;
+  margin: 0 auto 10px auto;
+  border: none;
+  height: 1px;
+  background-color: #c70039;
+}
+
+.card-text {
+  font-family: 'open sans', sans-serif;
+  font-weight:
+}
+
+.misson {
+  margin-top: 20px;
+}
+
+.card-body {
+  width: 90%;
+  margin: 40px auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-title {
+  font-size: 30px;
+  font-family: 'Kanit' , sans-serif;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #c81912;
+}
+
+.card-body p {
+  font-size: 20px;
+}
+
+.aboutus-img{
+  width: 100%;
+  height: 300px;
+  border-radius: 2%;
+}
+
+.small-icon {
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 10px
+}
+
+/************************************parallax***************************************/
+/************************************parallax***************************************/
+.parallax {
+  background-image: url('/images/porsche black 2.jpg');
+  height: 300px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: saturation;
+  z-index: -1;
+}
+
+.mask-1 {
+  position:absolute;
+width:100%;
+height:300px;
+  background:rgba(0,0,0,0.3);
+}
+
+.parallax-text{
+  filter: grayscale(0);
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+
+
+.parallax h2{
+  font-family: 'open sans' , sans-serif;
+font-weight:400;
+  font-size: 60px;
+}
+
+.parallax hr {
+  width: 50%;
+  margin: 0 auto 10px auto;
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+
+/************************************Projects***************************************/
+/************************************Projects***************************************/
+.projects{
+  background: #212121;
+}
+
+.project-items{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.img1{
+ height: 200px;
+  background-image: url("/images/astonmartin.gif");
+  background-repeat: no-repeat;
+  background-size: 95% 60%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+
+}
+
+.img1:hover{
+    background-image: url("/images/aston martin rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img2{
+height: 200px;
+  background-image: url("/images/porsche-logo.jpg");
+  background-repeat: no-repeat;
+  background-color:white;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 0 auto;
+
+}
+
+.img2:hover{
+    background-image: url("/images/porsche rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+
+}
+
+.img3{
+height: 200px;
+  background-image: url("/images/ferrari-logo.png");
+  background-repeat:no-repeat;
+  background-color: white;
+  background-size: 95% 130%;
+  background-position: center;
+  margin: 0 auto;
+
+}
+
+.img3:hover{
+    background-image: url("/images/ferrari rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img4{
+height: 200px;
+  background-image: url("/images/bmw.png");
+  background-repeat: no-repeat;
+  background-size: 60% 80%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+
+}
+
+.img4:hover{
+    background-image: url("/images/bmw rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img5{
+height: 200px;
+  background-image: url("/images/volkswagen.jpg");
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img5:hover{
+    background-image: url("/images/volkswagen rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img6{
+height: 200px;
+  background-image: url("/images/merce.png");
+  background-repeat: no-repeat;
+  background-size: 110% 90%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img6:hover{
+    background-image: url("/images/mercedes rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img7{
+height: 200px;
+  background-image: url("/images/audi.png");
+  background-repeat: no-repeat;
+  background-size: 85% 90%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img7:hover{
+    background-image: url("/images/audi rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img8{
+height: 200px;
+  background-image: url("/images/mazda.jpeg");
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img8:hover{
+    background-image: url("/images/mazda rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img9{
+height: 200px;
+  background-image: url("/images/honda.jpg");
+  background-repeat: no-repeat;
+  background-size: 101% 110%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img9:hover{
+    background-image: url("/images/honda rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img10{
+height: 200px;
+  background-image: url("/images/toyota.jpg");
+  background-repeat: no-repeat;
+  background-size: 70% 80%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img10:hover{
+    background-image: url("/images/toyota rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img11{
+height: 200px;
+  background-image: url("/images/nissan.jpeg");
+  background-repeat: no-repeat;
+  background-size: 60% 75%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img11:hover{
+    background-image: url("/images/nissan rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+.img12{
+height: 200px;
+  background-image: url("/images/subaru.png");
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  background-position: center;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.img12:hover{
+    background-image: url("/images/subaru rim.png");
+    background-size: 65% 90%;
+    transition-timing-function: ease-in;
+    transition:0.3s;
+}
+
+/************************************review***************************************/
+/************************************review***************************************/
+.review{
+  background: #e8e8e8;
+  padding-bottom: 100px;
+}
+
+.review h2{
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 90px;
+  padding-bottom:40px;
+  font-family: 'open sans', sans-serif;
+  font-weight:700;
+  font-size:45px;
+
+}
+
+.col-12
+{
+  padding-left:5px;
+  padding-bottom:25px;
+}
+
+.col-12 h5 {
+  margin:0;
+  margin-top:18px;
+}
+
+.review-content{
+  width: 87%;
+  margin: 0 auto;
+}
+.review-img{
+  width: 80px;
+   border-radius: 80%;
+   margin: 10px;
+   margin-top: 20px;
+   margin-left:30px;
+}
+
+.card2{
+  text-align: left;
+    height: 480px;
+    padding-right: 30px;
+}
+
+.card2-item{
+  margin-top: 15px;
+  margin-right:20px;
+
+}
+
+/************************************parallax***************************************/
+/************************************parallax***************************************/
+.parallax2 {
+  background-image: url('/images/porsche black.jpg');
+  height: 580px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: saturation;
+  z-index: -1;
+
+}
+
+.mask {
+  position:absolute;
+width:100%;
+height:580px;
+  background:rgba(0,0,0,0.4);
+}
+
+
+.parallax-text2{
+  filter: grayscale(0);
+  color: white;
+  padding-top: 60px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom:100px;
+  margin-left:200px;
+
+
+
+
+
+}
+
+.parallax2 h2{
+  text-align: left;
+
+  font-size: 55px;
+  padding-top: 50px;
+  padding-bottom:20px;
+  width: 630px;
+  border-radius: 5px;
+
+  margin-top:0px;
+  margin-bottom:60px;
+  margin-left:0;
+
+  font-weight:600;
+
+
+}
+
+.parallax2 h3 {
+  font-size: 33px;
+}
+
+.parallax2 p {
+  font-size :20px;
+}
+.row {
+
+
+
+}
+/************************************Service***************************************/
+/************************************Service***************************************/
+.vl {
+  border-left: 6px solid white;
+  height: 250px;
+}
+
+.service-arrow{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/************************************contact us***************************************/
+/************************************contact us***************************************/
+.Contact-us-item{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.Contact-us-item h2{
+  margin-bottom: 50px;
+  font-family:'open sans', sans-serif;
+  font-size:40px;
+  font-weight:400;
+}
+
+.contact-img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.contact-img-1{
+  margin-bottom: 23px;
+  width :100px;
+  
+}
+
+
+
+
+
+/************************************footer***************************************/
+/************************************footer**************************************/
+footer{
+  height: 200px;
+  background: #e8e8e8;
+  text-align: center;
+  position: relative;
+}
+
+.footer-item{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.footer-img{
+  margin-bottom: 10px;
+}
